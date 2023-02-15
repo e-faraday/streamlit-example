@@ -1,5 +1,5 @@
-import psycopg2-binary
 import streamlit as st
+import psycopg2
 
 
 @st.experimental_singleton
