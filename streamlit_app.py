@@ -1,4 +1,5 @@
 import psycopg2
+import psycopg2-binary
 import streamlit as st
 
 
