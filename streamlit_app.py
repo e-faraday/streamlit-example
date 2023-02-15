@@ -16,7 +16,7 @@ def run_query(query):
     
  rows = run_query("SELECT * from testschema15.test_table15;")   
 
- st.dataframe(rows)
-
+for row in rows:
+    st.write(f"{row[0]} has a :{row[1]}:")
 
 
